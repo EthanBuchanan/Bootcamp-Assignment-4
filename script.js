@@ -183,6 +183,14 @@ function renderHighScores() {
         tableEl.appendChild(makeTableRow(scores[i][0],scores[i][1]))
     }
 
+    var newGameEl = document.createElement("button");
+    newGameEl.setAttribute("class","button-style");
+    contentEl.appendChild(newGameEl);
+    newGameEl.textContent = "Play Again";
+    newGameEl.addEventListener("click",function () {
+        onQuizStart();
+    })
+
 }
 
 function makeTableRow(value1,value2)

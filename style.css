@@ -35,6 +35,7 @@ main {
 td {
     padding: 5px;
     border: black 1px solid;
+    width: 50px;
 }
 
 table {
