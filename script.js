@@ -12,6 +12,21 @@ var questions = [
         Options: ["div {display: flex;}", "var div = [display: flex;]", "(div) -> {display = flex};", "div.display = flex"],
         Answer: 0
     },
+    {
+        Question: "Question: What is the basic tag structure all HTML documents should follow:",
+        Options: ["<html>\n\t<attr>\n\n\t</attr>\n\t<main>\n\n\t</main>", "<all>\n\t<head>\n\n\t<head>\n\t<body>\n\n\t</body>\n</all>", "<html>\n\t<head>\n\n\t<head>\n\t<body>\n\n\t<body>\n<html>", "<html>\n\t<head>\n\n\t</head>\n\t<body>\n\n\t</body>\n</html>"],
+        Answer: 3
+    },
+    {
+        Question: "Question: What is an HTML tag:",
+        Options: ["That Annoying thing on clothes that tells size", "A part of a data storage modle", "A structure that encapsules data so you can reference it", "An interface between program and operating system"],
+        Answer: 2
+    },
+    {
+        Question: "Question: How do you connect a javascript file to your website:",
+        Options: ["You include it's reference when compiling", "Put a script tag at the end of your body tag", "Include it when making CSS rules", "The computer is smart. It'll figure things out with out your help"],
+        Answer: 1
+    },
 ];
 
 var timerControl;
