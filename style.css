@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+}
+
+header h1 {
+    color: #4c2e72;
+    font-family: sans-serif;
+}
+
+header p {
+    font-size: 150%;
+    font-family: sans-serif;
+    width: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.button-style {
+    display: block;
+    background-color: #4c2e72;
+    border: white;
+    color: white;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 100%;
+    padding: 4px 15px;
+}
