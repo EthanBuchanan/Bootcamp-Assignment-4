@@ -26,8 +26,17 @@ main {
     background-color: #4c2e72;
     border: white;
     color: white;
-    margin: 4px;
+    margin: 4px 0px;
     border-radius: 5px;
     font-size: 100%;
     padding: 4px 15px;
+}
+
+td {
+    padding: 5px;
+    border: black 1px solid;
+}
+
+table {
+    border-spacing: 0px;
 }
